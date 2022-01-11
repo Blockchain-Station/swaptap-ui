@@ -159,7 +159,7 @@ export default function ClaimModal({
           <UpperAutoColumn gap="16px">
             <RowBetween>
               <TYPE.white fontWeight={500} fontSize="20px" lineHeight="24px" color="text4">
-                Your SWPR details
+                Your TAP details
               </TYPE.white>
               <CloseIcon onClick={wrappedOnDismiss} style={{ zIndex: 99 }} />
             </RowBetween>
@@ -167,7 +167,7 @@ export default function ClaimModal({
               {newSwprBalance?.toFixed(3) || '0.000'}
             </TYPE.white>
             <TYPE.white fontWeight={600} fontSize="11px" lineHeight="13px" letterSpacing="0.08em" color="text4">
-              TOTAL SWPR ON CURRENT NETWORK
+              TOTAL TAP ON CURRENT NETWORK
             </TYPE.white>
             <AddTokenButton
               active={
@@ -181,20 +181,20 @@ export default function ClaimModal({
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             {debouncedAvailableClaim && !correctNetwork && (
               <NetworkWarning>
-                Receive your SWPR airdrop on Arbitrum One. Please switch network to claim.
+                Receive your TAP airdrop on Arbitrum One. Please switch network to claim.
               </NetworkWarning>
             )}
             {correctNetwork && debouncedIsOldSwaprLP && (
               <NativeCurrencyWarning>
-                Seems like you have provided liquidity on the old Swapr build. Please pull all the provided liquidity
-                and come back to swapr.eth to proceed.
+                Seems like you have provided liquidity on the old Swaptap build. Please pull all the provided liquidity
+                and come back to swaptap.io to proceed.
               </NativeCurrencyWarning>
             )}
             <BottomAutoColumn gap="8px">
               <RowBetween>
                 <div>
                   <TYPE.small fontWeight={600} fontSize="11px" lineHeight="13px" letterSpacing="0.08em" color="text5">
-                    UNCLAIMED SWPR (OLD)
+                    UNCLAIMED TAP (OLD)
                   </TYPE.small>
                   <TYPE.white fontWeight={700} fontSize="22px" lineHeight="27px">
                     {debouncedUnclaimedBalance?.toFixed(3) || '0'}
@@ -202,7 +202,7 @@ export default function ClaimModal({
                 </div>
                 <div>
                   <TYPE.small fontWeight={600} fontSize="11px" lineHeight="13px" letterSpacing="0.08em" color="text5">
-                    UNCONVERTED SWPR (OLD)
+                    UNCONVERTED TAP (OLD)
                   </TYPE.small>
                   <TYPE.white fontWeight={700} fontSize="22px" lineHeight="27px">
                     {oldSwprBalance?.toFixed(3) || '0'}
@@ -245,7 +245,7 @@ export default function ClaimModal({
                 />
               )}
             </BottomAutoColumn>
-            <ExternalLink href="https://medium.com/swapr/announcing-swpr-token-e8ab12dbad45">
+            <ExternalLink href="https://bcsdev.medium.com">
               <Row justifyContent="center" width="100%">
                 <TYPE.small fontSize="13px" fontWeight="400px" lineHeight="16px">
                   Read about the airdrop
@@ -253,7 +253,7 @@ export default function ClaimModal({
                 <ExternalLinkIcon style={{ marginLeft: 3 }} size="12px" />
               </Row>
             </ExternalLink>
-            <ExternalLink href="https://medium.com/swapr/swpr-conversion-and-farming-plan-update-db8a13f6cd91">
+            <ExternalLink href="https://bcsdev.medium.com">
               <Row justifyContent="center" width="100%">
                 <TYPE.small fontSize="13px" fontWeight="400px" lineHeight="16px">
                   Read about the conversion
@@ -273,7 +273,7 @@ export default function ClaimModal({
       attemptingTxn={attempting}
       hash={hash}
       content={content}
-      pendingText={`Claiming ${debouncedUnclaimedBalance?.toFixed(3)} SWPR`}
+      pendingText={`Claiming ${debouncedUnclaimedBalance?.toFixed(3)} TAP`}
     />
   )
 }

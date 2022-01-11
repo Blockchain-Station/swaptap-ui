@@ -232,7 +232,7 @@ export default function Pools() {
         </AutoColumn>
         {account && (
           <ButtonWithLink
-            link={`https://dxstats.eth.link/#/account/${account}?chainId=${chainId}`}
+            link={`https://stats.swaptap.io/#/account/${account}?chainId=${chainId}`}
             text={'ACCOUNT ANALYTICS AND ACCRUED FEES'}
             style={{ marginTop: '32px' }}
           />

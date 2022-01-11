@@ -287,7 +287,7 @@ export default function SettingsTab() {
                 </RowBetween>
                 <Divider />
                 <RowBetween width="100%" marginTop="12px" marginBottom="12px">
-                  <MenuItem href="https://dxdao.eth.link/" rel="noopener noreferrer" target="_blank">
+                  <MenuItem href="https://blockchainstation.io/" rel="noopener noreferrer" target="_blank">
                     <Info size={14} />
                     About
                   </MenuItem>
@@ -295,7 +295,7 @@ export default function SettingsTab() {
                     <Code size={14} />
                     Code
                   </MenuItem>
-                  <MenuItem href="https://discord.com/invite/4QXEJQkvHH">
+                  <MenuItem href="https://discord.gg/seaRMnETNm">
                     <MessageCircle size={14} />
                     Discord
                   </MenuItem>
@@ -304,7 +304,7 @@ export default function SettingsTab() {
                   <SwaprVersionLogo />
                   <Divider horizontal style={{ height: 48 }} />
                   <TYPE.body fontWeight={700} fontSize="8px" letterSpacing="3px" color="white">
-                    A DXDAO PRODUCT
+                    A BCS PRODUCT
                   </TYPE.body>
                 </RowBetween>
               </MenuModalInner>

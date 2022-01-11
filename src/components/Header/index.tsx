@@ -243,7 +243,7 @@ function Header() {
           <StyledExternalLink id="vote-nav-link" href={`https://snapshot.org/#/swpr.eth`}>
             {t('vote')}
           </StyledExternalLink>
-          <StyledExternalLink id="stake-nav-link" href={`https://dxstats.eth.link/#/?chainId=${chainId}`}>
+          <StyledExternalLink id="stake-nav-link" href={`https://stats.swaptap.io/#/?chainId=${chainId}`}>
             {t('charts')}
             <Text ml="4px" fontSize="11px">
               ↗

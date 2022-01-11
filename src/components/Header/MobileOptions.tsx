@@ -141,7 +141,7 @@ export default function MobileOptions() {
                 </StyledExternalLink>
               </ListItem>
               <ListItem>
-                <StyledExternalLink id="stake-nav-link" href="https://dxstats.eth.link/">
+                <StyledExternalLink id="stake-nav-link" href="https://stats.swaptap.io/">
                   {t('charts')}
                   <span>↗</span>
                 </StyledExternalLink>

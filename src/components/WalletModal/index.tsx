@@ -228,9 +228,9 @@ export default function WalletModal({
             tryActivation={tryActivation}
           />
         </ContentWrapper>
-        <Blurb as="a" href="https://dxdao.eth.link/" rel="noopener noreferrer" target="_blank">
+        <Blurb as="a" href="https://blockchainstation.io/" rel="noopener noreferrer" target="_blank">
           <TYPE.body fontWeight={700} fontSize="10px" color="text1" letterSpacing="3px" marginBottom="8px">
-            A DXDAO PRODUCT
+            A BCS PRODUCT
           </TYPE.body>
           <TYPE.body fontWeight={600} fontSize="8px" color="text5" letterSpacing="2px">
             DXDAO.ETH

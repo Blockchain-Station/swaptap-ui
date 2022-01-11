@@ -31,7 +31,7 @@ export const AddTokenButton = ({ active }: { active?: boolean }) => {
 
   return (
     <AddSWPRToMetamaskButton onClick={addTokenToMetamask} active={active}>
-      + Add SWPR to Metamask
+      + Add TAP to Metamask
     </AddSWPRToMetamaskButton>
   )
 }

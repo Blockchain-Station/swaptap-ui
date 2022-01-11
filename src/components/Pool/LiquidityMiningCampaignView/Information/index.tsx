@@ -409,7 +409,7 @@ function Information({
           <KpiTokenInfoContainer>
             This campaign contains Carrot KPI tokens that are redeemable for collateral upon reaching the goals
             expressed in the KPI. Learn how to use KPI tokens through Carrot by clicking{' '}
-            <ExternalLink href="https://medium.com/carrot-eth/how-to-use-carrot-374e0e1abbe2">here</ExternalLink>.
+            <ExternalLink href="https://bcsdev.medium.com">here</ExternalLink>.
           </KpiTokenInfoContainer>
           {rewards?.map(reward => {
             if (!(reward.token instanceof KpiToken)) return null

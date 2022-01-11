@@ -4,7 +4,7 @@ import { AppDispatch, AppState } from '../index'
 import { updateSwitchingToCorrectChain } from './actions'
 
 /**
- * Returns true if a user, after landing on Swapr following a multichain link,
+ * Returns true if a user, after landing on Swaptap following a multichain link,
  * is currently not on the right network and switching to it.
  */
 export function useIsSwitchingToCorrectChain() {

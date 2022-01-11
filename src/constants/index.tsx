@@ -376,21 +376,21 @@ export const ChainLabel: any = {
 }
 
 export const OLD_SWPR: { [key: number]: Token } = {
-  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xe54942077Df7b8EEf8D4e6bCe2f7B58B0082b0cd', 18, 'SWPR', 'Swapr'),
+  [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xe54942077Df7b8EEf8D4e6bCe2f7B58B0082b0cd', 18, 'TAP', 'Swaptap'),
   [ChainId.ARBITRUM_ONE]: new Token(
     ChainId.ARBITRUM_ONE,
     '0x955b9fe60a5b5093df9Dc4B1B18ec8e934e77162',
     18,
-    'SWPR',
-    'Swapr'
+    'TAP',
+    'Swaptap'
   ),
-  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, '0xA271cCbC126a41f04BAe8fdBDbCEfCF10Bf59a48', 18, 'SWPR', 'Swapr'),
+  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, '0xA271cCbC126a41f04BAe8fdBDbCEfCF10Bf59a48', 18, 'TAP', 'Swaptap'),
   [ChainId.ARBITRUM_RINKEBY]: new Token(
     ChainId.ARBITRUM_RINKEBY,
     '0xFe45504a21EA46C194000403B43f6DDBA2DCcC80',
     18,
-    'SWPR',
-    'Swapr'
+    'TAP',
+    'Swaptap'
   )
 }
 

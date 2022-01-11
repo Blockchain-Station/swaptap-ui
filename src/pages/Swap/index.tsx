@@ -343,7 +343,7 @@ export default function Swap() {
                         </>
                       ) : null}
                     </TYPE.body>
-                    <QuestionHelper text="The trade is routed directly to the selected platform, so no swap or network fees are ever added by Swapr." />
+                    <QuestionHelper text="The trade is routed directly to the selected platform, so no swap or network fees are ever added by Swaptap." />
                   </RowBetween>
                 </PaddedCard>
                 <PaddedRowBetween align="center" px="8px">

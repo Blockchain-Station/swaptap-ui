@@ -83,12 +83,12 @@ export default function Governance() {
             <Flex>
               <Info color={theme.text4} size={18} />
               <TYPE.body marginLeft="10px" color={theme.text4} fontWeight={500} lineHeight="20px">
-                Swapr Governance
+              Swaptap Governance
               </TYPE.body>
             </Flex>
             <RowBetween>
               <TYPE.body fontWeight="500" fontSize="11px" lineHeight="16px" letterSpacing="-0.4px">
-                SWP-LP tokens represent voting shares in Swapr governance. You can vote on each proposal yourself or
+                SWP-LP tokens represent voting shares in Swaptap governance. You can vote on each proposal yourself or
                 delegate your votes to a third party.
               </TYPE.body>
             </RowBetween>
@@ -100,7 +100,7 @@ export default function Governance() {
                 lineHeight="17px"
                 style={{ textDecoration: 'underline', cursor: 'pointer' }}
               >
-                Read more about Swapr Governance
+                Read more about Swaptap Governance
               </TYPE.body>
             </RowBetween>
           </AutoColumn>

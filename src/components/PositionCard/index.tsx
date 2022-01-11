@@ -172,8 +172,8 @@ const AccountAnalyticsButton = ({
     as={ExternalLink}
     href={
       account
-        ? `https://dxstats.eth.link/#/account/${account}?chainId=${chainId}`
-        : `https://dxstats.eth.link/#/accounts?chainId=${chainId}`
+        ? `https://stats.swaptap.io/#/account/${account}?chainId=${chainId}`
+        : `https://stats.swaptap.io/#/accounts?chainId=${chainId}`
     }
   >
     <Flex alignItems="center">

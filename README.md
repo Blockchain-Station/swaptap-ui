@@ -1,6 +1,6 @@
-# Swapr dapp
+# Swaptap dapp
 
-An open source decentralized application for Swapr -- a protocol for decentralized exchange of Ethereum tokens governed by the DXdao.
+An open source decentralized application for Swaptap -- a protocol for decentralized exchange of BCS tokens governed by the DXdao.
 
 ## Development
 

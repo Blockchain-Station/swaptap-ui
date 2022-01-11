@@ -230,7 +230,7 @@ export default function Bridge() {
       />
       <AppBody>
         <RowBetween mb="12px">
-          <Title>{isCollecting ? 'Collect' : 'Swapr Bridge'}</Title>
+          <Title>{isCollecting ? 'Collect' : 'Swaptap Bridge'}</Title>
         </RowBetween>
         <Row mb="12px">
           <AssetWrapper ref={fromPanelRef}>

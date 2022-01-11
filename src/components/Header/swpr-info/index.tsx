@@ -47,7 +47,7 @@ export function SwprInfo({ onToggleClaimPopup, oldSwprBalance, newSwprBalance }:
         <span role="img" aria-label="Airdrop emoji">
           ✨
         </span>{' '}
-        Claim SWPR airdrop and convert
+        Claim TAP airdrop and convert
       </AirdropSign>
     )
   if (debouncedIsOldSwaprLp || debouncedOldSwprBalance?.greaterThan('0'))
@@ -56,12 +56,12 @@ export function SwprInfo({ onToggleClaimPopup, oldSwprBalance, newSwprBalance }:
         <span role="img" aria-label="Convert SWPR emoji">
           ✨
         </span>{' '}
-        Convert to new SWPR
+        Convert to new TAP
       </AirdropSign>
     )
   return (
     <Amount zero={false} clickable onClick={onToggleClaimPopup}>
-      {!account || !newSwprBalance ? '0.000' : newSwprBalance.toFixed(3)} SWPR
+      {!account || !newSwprBalance ? '0.000' : newSwprBalance.toFixed(3)} TAP
     </Amount>
   )
 }
